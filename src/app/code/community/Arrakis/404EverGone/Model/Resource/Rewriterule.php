@@ -64,6 +64,9 @@ class Arrakis_404EverGone_Model_Resource_Rewriterule extends Mage_Core_Model_Res
                     ->where('store_id IN(?)', array(Mage_Core_Model_App::ADMIN_STORE_ID, $object->getStoreId()))
                     ->order('store_id ' . Varien_Db_Select::SQL_DESC)
                     ->limit(1);
+        if ($object->hasIsActive()) {
+            $select->where('is_active = ' . $object->getIsActive());
+        }
 
         $binds = array(
             'request_path' => $request,
