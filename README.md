@@ -10,14 +10,19 @@ It conveniently replaces .htaccess rewrites capabilities without the need of edi
 
 Note: at the moment, target paths cannot use elements from the original request (you cannot extract a value from the request to generate the final target).
 
+License: See LICENSE
 
 Screenshots
 ===========
 
+Admin menu:
 ![Admin menu](https://raw.github.com/nanawel/Arrakis_404EverGone/master/resources/screenshots/0.1.1/screenshot_01.png)
 
+Rewrite rules grid:
 ![Rewrite rules grid](https://raw.github.com/nanawel/Arrakis_404EverGone/master/resources/screenshots/0.1.1/screenshot_02.png)
 
+Rewrite rule form:
 ![Rewrite rule form](https://raw.github.com/nanawel/Arrakis_404EverGone/master/resources/screenshots/0.1.1/screenshot_03.png)
 
+Pattern check result:
 ![Pattern check result](https://raw.github.com/nanawel/Arrakis_404EverGone/master/resources/screenshots/0.1.1/screenshot_04.png)
