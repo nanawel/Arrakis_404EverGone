@@ -1,0 +1,19 @@
+<?php
+/**
+ * 404 Url rewrites edit container
+ *
+ * @see Arrakis_404EverGone_Block_Adminhtml_Rewriterule_Edit
+ */
+?>
+<div class="content-header">
+    <?php echo $this->getHeaderHtml() ?>
+    <p class="content-buttons form-buttons"><?php echo $this->getButtonsHtml() ?></p>
+</div>
+
+<?php echo $this->getChildHtml() ?>
+
+<?php if ($this->getChild('form')): ?>
+<script type="text/javascript">
+    var editForm = new varienForm('edit_form', '<?php echo $this->getValidationUrl() ?>');
+</script>
+<?php endif; ?>

@@ -1,0 +1,11 @@
+<config>
+	<modules>
+		<Arrakis_404EverGone>
+			<active>true</active>
+			<codePool>community</codePool>
+            <depends>
+                <Mage_Adminhtml />
+            </depends>
+		</Arrakis_404EverGone>
+	</modules>
+</config>

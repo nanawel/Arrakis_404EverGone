@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <catalog>
+            <children>
+                <rewriterule translate="title" module="catalog">
+                    <title>404 Rewrite Rule Management</title>
+                    <action>adminhtml/rewriterule/index</action>
+                    <sort_order>32</sort_order>
+                </rewriterule>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <catalog>
+                        <children>
+                            <rewriterule translate="title">
+                                <title>404 Rewrite Rule Management</title>
+                            </rewriterule>
+                        </children>
+                    </catalog>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
